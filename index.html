@@ -1,23 +1,17 @@
-function changeColor() {
-    document.getElementById("my").style.backgroundColor = "lightblue";
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="fun.js"></script>
+        <title>Change Background Color </title>
+    </head>
+    <body>
 
-//This function is for change paragraph background color to blue
-function changeBlue() {
-    document.getElementById("a").style.backgroundColor = "blue";
-}
+        <h2 id="b">Click the button tochange the background color</h2>
 
-/* 
-This function is for 
-changing background color
-*/
-function changeRed()
-{
-    document.getElementById("a").style.backgroundColor = "red";
-}
+        <p id="a">This is a sample paragraph.</p>
 
-function change_font_color()
-{
-    document.getElementById("b").style.color = "lightgreen";
-}
-
+        <button onclick="changeBlue()">Chage Blue</button>
+        <button onclick="changeRed()">Change Red</button>
+        <button onclick="change_font_color()">Change Font Color</button>
+    </body>
+</html>
